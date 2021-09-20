@@ -20,9 +20,10 @@ const questions: PromptObject[] = [{
 
 async function show() {
     var agent_config: Object = {}
+    var ans: Object = {}
     for (var a of questions) {
         do{
-            var ans: Object = await prompts(a)
+            ans = await prompts(a)
         } while(!Object.keys(ans).length)
         Object.assign(agent_config, ans)
     }
