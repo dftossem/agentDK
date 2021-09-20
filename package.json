@@ -1,0 +1,34 @@
+{
+  "name": "robot-coms",
+  "version": "1.0.0",
+  "description": "Robot data model communication design framework",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc && node ./dist/index.js",
+    "test": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dftossem/agent-dk.git"
+  },
+  "keywords": [
+    "robot",
+    "automation",
+    "smart-factory",
+    "communication",
+    "data-model"
+  ],
+  "author": "David Tosse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dftossem/agent-dk/issues"
+  },
+  "homepage": "https://github.com/dftossem/agent-dk#readme",
+  "devDependencies": {
+    "@types/node": "^16.9.2",
+    "@types/prompts": "^2.0.14"
+  },
+  "dependencies": {
+    "prompts": "^2.4.1"
+  }
+}
