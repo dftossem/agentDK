@@ -31,3 +31,7 @@ async function show() {
 }
 
 show()
+
+// Descripción software: requerimientos, mapa mental
+// Propuesta de diseño argumentada
+// Puente (para axial), araña, globo con hidrógeno
